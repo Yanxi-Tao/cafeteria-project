@@ -108,7 +108,9 @@ export default function Home() {
           </p>
         </a>
       </div>
-    
+      <div>
+        <a href="https://google.com">go to google and go to a different website because this one is trash</a>
+      </div>
     </main>
   );
 }
