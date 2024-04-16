@@ -82,9 +82,9 @@ export default function Home() {
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            <span className="inline-bloc transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
-            </span>
+            </span> 
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Explore starter templates for Next.js.
