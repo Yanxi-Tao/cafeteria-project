@@ -104,12 +104,11 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly test your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
       </div>
       <div>
-        <a href="https://google.com">go to google and go to a different website because this one is trash</a>
       </div>
     </main>
   );
