@@ -13,6 +13,7 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 255, 0, 0;
     --background-end-rgb: 255, 255, 255;
+    --padding-for-stuff:4vw;
   }
 }
 
@@ -25,26 +26,45 @@ body {
   color: rgb(var(--foreground-rgb));
 }
 
+.max{
+  width:100%;
+  height:100%;
+} 
+
+.max-pad{
+  width:calc(100% - var(--padding-for-stuff)*2);
+  height:100%;
+  margin:0 var(--padding-for-stuff);
+} 
+
+table {
+  table-layout: fixed;
+}
+
 tr > * {
   border: solid black 1px;
   border-collapse: separate;
-  table-layout: auto;
   text-align: center;
   padding: 0.75rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-
-
+  overflow-wrap: break-word;
 }
 
 tr:hover {
   background-color: rgb(179, 177, 177);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.anim{
+  animation: spin 1s linear infinite;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
-
 

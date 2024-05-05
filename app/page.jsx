@@ -1,11 +1,14 @@
+
+import { Topbar } from "@/app/topbar";
 import Image from "next/image";
 
 export default function Home() {
+  process.env.
   return (
     <main>
       <div class="absolute w-screen h-screen bg-gradient-to-b from-red-300 to-50% to-rgb(255 255 255 0) top-0 z-0"></div>
      
-      <div class = "absolute" >
+      <div class = "absolute anim" >
           <a href="https://fis.edu" target = "_blank"><img src = "Logo.png"/></a>
       </div>
 
@@ -13,8 +16,8 @@ export default function Home() {
         <button type="button">Click Me!</button>
       </div>
 
-      <div class = "absolute top-1/4  text-black center w-fit" >
-        <table >
+      <div class = "thisTable absolute top-1/4  text-black center w-screen" >
+        <table class = "max-pad">
           <thead>
             <tr>
                 <th>Front cooking</th>
@@ -25,23 +28,23 @@ export default function Home() {
           </thead>
           <tbody>
             <tr>
-                <td>Anoms</td>
-                <td>19</td>
-                <td>Male</td>
-                <td>poop</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
 
             </tr>
             <tr>
-                <td>Megha</td>
-                <td>19</td>
-                <td>Female</td>
-                <td>poop</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
             </tr>
             <tr>
-                <td>Subham</td>
-                <td>25</td>
-                <td>Male</td>
-                <td>poop</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
             </tr>
           </tbody>
         </table>
